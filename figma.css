@@ -1,0 +1,402 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* navbar */
+.navbar {
+    background-color: #181818;
+}
+.navbar-nav{
+    margin-left: 170px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+.navbar img{
+    margin-left: 30px;
+}
+.button1{
+    background-color: #181818;
+    border-color: white;
+    border-radius: 2rem;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-left: 50px;
+}
+.button1:hover{
+    background-color: #ffcc00;
+    color: #181818;
+}
+
+/* hero */
+
+.hero {
+    background-color: #1a1919;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #a5a4a4;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #7a7878;
+}
+.button2{
+    background-color: #181818;
+    border-color: white;
+    border-radius: 2rem;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-left: 50px;
+}
+.button2:hover{
+    background-color: #ffcc00;
+    color: #181818;
+}
+.img2 {
+    width :500px;
+    height: 500px;
+    margin-left: 600px;
+    margin-top: -480px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+}
+.img3{
+    height: 400px;
+    width: 350px;
+    margin-left: 410px;
+    margin-top: -400px;
+}
+
+@media (max-width: 1023px) {
+    .hero img{
+        display: none;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1199px) {
+    .hero img{
+        display: none;
+    }
+}
+
+/* feature */
+
+.features{
+    background-color: rgba(236, 216, 189, 1);
+}
+
+/* service */
+
+.service-card {
+    background-color: #1a1919;
+    border: none;
+}
+.card-body1{
+    background-color: #1a1919;
+    color: rgb(170, 168, 168);
+}
+.service-card img {
+    transition: transform 0.3s ease-in-out;
+}
+.service-card:hover img {
+    transform: scale(1.1);
+}
+.service-card:hover {
+    background-color: #ffcc00;
+    transition: background-color 0.3s ease;
+}
+.features .feature {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+.features .feature:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+.btn-primary {
+    background-color: #ffcc00;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #e6b800;
+}
+@media (max-width: 992px){
+    .services img{
+        height: 250px;
+    }
+}
+
+
+/* main section */
+.main-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1a1919;
+}
+
+.text-content h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(143, 141, 141);
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #616060;
+}
+
+.text-content a.btn {
+    background-color: #f7dba5;
+    border: none;
+    padding: 10px 20px;
+    color: #1e1e1e;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.text-content a.btn:hover {
+    background-color: #f5b56b;
+}
+
+.mainimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .text-content h2 {
+        font-size: 2rem;
+    }
+
+    .text-content p {
+        font-size: 1rem;
+    }
+
+    .mainimg{
+        height: 250px;
+    }
+}
+
+
+/* Services Section */
+.services {
+    background-color: rgba(236, 216, 189, 1);
+}
+
+.services h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #232323;
+}
+
+.service-card {
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-body{
+    background-color: rgba(236, 216, 189, 1);
+}
+
+.service-card .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.service-card .card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.service-card .card-title {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.button{
+    background-color:rgba(236, 216, 189, 1);
+    border-color: #000;
+    border-radius: 2rem;
+    width: 200px;
+    height: 40px;
+}
+.button:hover{
+    background-color: black;
+    color: rgba(236, 216, 189, 1);
+}
+
+/* Booking Section */
+.booking-section {
+    background-color: #1a1919; 
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.booking-section h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.booking-section .form-control {
+    background-color: #333;
+    border: 1px solid #f7dba5;
+    color: #fff;
+}
+
+.booking-section .form-control:focus {
+    border-color: #f5b56b;
+    box-shadow: none;
+}
+
+.booking-section button.btn {
+    background-color: #f7dba5;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.booking-section button.btn:hover {
+    background-color: #f5b56b;
+}
+
+@media (max-width: 768px) {
+    .text-content h2 {
+        font-size: 2rem;
+    }
+
+    .text-content p {
+        font-size: 1rem;
+    }
+
+    .booking-section h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Subscription Section */
+.subscription {
+    background-color: #232323;
+    color: #fff;
+}
+
+.subscription h2 {
+    font-size: 2rem;
+}
+
+.subscription form input {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.subscription form button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.subscription form button:hover {
+    background-color: #e0a800;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #232323;
+    color: #fff;
+}
+
+.footer h5 {
+    font-size: 1.5rem;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ffc107;
+}
+
+
+@media (max-width: 992px) {
+    .header-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .services h2, .our-services h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-section h1 {
+        font-size: 2rem;
+    }
+
+    .subscription form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscription form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .services h2, .our-services h2 {
+        font-size: 1.8rem;
+    }
+
+    .subscription h2 {
+        font-size: 1.5rem;
+    }
+}
